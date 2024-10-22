@@ -1,0 +1,41 @@
+.container {
+    width: 400px;
+    height: 400px;
+    background-color: #EDEDED;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.results {
+    display: flex;
+    justify-content: stretch;
+    height: 100px;
+    border: 1px solid #FFFFFF;
+}
+
+.result {
+    flex-grow: 1;
+    margin: 5px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: green;
+}
+
+.buttons {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+.button {
+    flex-grow: 1;
+    margin: 5px;
+    background-color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    width: 30px;
+}
